@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.full{
+    height: 100%;
+    width: 100%;
+    background-color:#ab6775 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    height: 88%;
+    width: 90%;
+    display: flex;
+   
+    background-color:#905562 ;
+
+}
+#part1{
+    height:100%;
+    width: 26%;
+    /* background-color: rebeccapurple; */
+}
+#part2{
+    height:100%;
+    width: 68%;
+    background-color:#53222db5;
+    background-size: cover;
+    background-position: center;
+    background-image:url(img3.jpeg) ;
+}
+#overlay{
+ height: 100%;
+ width: 100%;
+    
+    background-color:#492b3270 ;
+}
+#part3{
+    height:100%;
+    width:6%;
+    /* background-color: rgb(190, 128, 46); */
+}
+#text-div{
+    height: 300px;
+    position: absolute;
+    width: 400px;
+    /* background-color: azure; */
+    left: 8%;
+    top: 30%;
+
+}
+#text-div h1{
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 78px;
+    color:white;
+    letter-spacing: 8px;
+    
+}
+#small_img{
+    height: 400px;
+    width: 300px;
+    /* background-color: #6e59f7; */
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform:translate(0,-50%)  ;
+    background-image: url(my_img2\ \(2\).jpeg);
+    background-size: cover;
+    background-position: right;
+}
+#vertical-text{
+    position: absolute;
+    right: 7%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    right: -30%;
+    top:15% ;
+    /* width: 100%; */
+    /* background-color: rgb(215, 17, 17); */
+    
+}
+#vertical-text h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: transparent;
+    letter-spacing: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(248, 244, 244);
+    text-transform: uppercase;
+    
+}
+#nav{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 350px;
+    /* background-color: black; */
+    left: 8%;
+
+    top: 5%;
+}
+#nav img{
+height: 60px;
+}
+#nav H5{
+    font: size 20px ;
+    color: white;
+    /* position: absolute
+     */
+     margin-top: 12px;
+    /* top: 25px; */
+}
